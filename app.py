@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import streamlit as st
 
-
 #webcamera 
 cap= cv2.VideoCapture('video.mp4')
 cout_line_position = 550
@@ -46,6 +45,7 @@ while True:
      validate_counter = (w>=min_width_react)  and (h>=min_hight_react)
      if not validate_counter:
          continue
+     
      cv2.putText(frame1, "Vehicle" + str(counter), (x, y-20), cv2.FONT_HERSHEY_TRIPLEX, 1, (0, 0, 255), 3)
      
      cv2.rectangle(frame1,(x,y), (x+w,y+h), (0,255,0),2)
