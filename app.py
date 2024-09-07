@@ -12,7 +12,7 @@ min_hight_react = 80   #min_hight_react
 
 
 # initailze subtractor
-algo = cv2.bgsegm.createBackgroundSubtractorMOG()
+algo = cv2.createBackgroundSubtractorMOG2()
 
 def center_handle(x,y,w,h):
     x1=int(w/2)
