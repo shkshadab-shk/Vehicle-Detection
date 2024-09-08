@@ -18,28 +18,30 @@ This project is a vehicle detection and counting system using OpenCV and Python.
 - NumPy
 
 
-#Usage
+## Usage
 Prepare Your Video File: Place your video file in the project directory and name it traffic.mp4, or update the code to reference your file name.
 Run the Script: Execute the script using Python:
 
 
-#Result
+## Result
 View the Results: The video will display with overlaid lines showing the entry and exit points. Vehicle counts and speeds will be displayed on the video. Press Enter to exit the program and close the video window
 
-#Code Details
+## Code Details
 Video Capture: cv2.VideoCapture('traffic.mp4') initializes video capture from the file.
 Background Subtractor: cv2.bgsegm.createBackgroundSubtractorMOG() for vehicle detection.
 Center Calculation: center_handle(x, y, w, h) calculates the center of detected vehicles.
 Frame Resizing: cv2.resize(frame1, (display_width, display_height)) scales the video frame to fit the display window.
 Vehicle Tracking: Monitors vehicles crossing defined lines for entry and exit counts.
 Speed Calculation: Computes vehicle speeds and displays them on the video.
-Configuration
+
+## Configuration
+
 Line Positions: Adjust in_line_position and out_line_position to set entry and exit lines based on your video.
 Detection Sensitivity: Modify min_width_react and min_hight_react to fine-tune vehicle detection.
 Display Size: Set display_width and display_height to match your screen resolution for optimal display.
 
 
-#License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
  
 
