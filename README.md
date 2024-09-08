@@ -51,10 +51,10 @@ python vehicle_detection.py
 
 
 
-Feel free to modify the sections according to your preferences or specific project details!
 
 
 
 
+    
 
 
