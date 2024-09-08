@@ -27,10 +27,10 @@ Run the Script: Execute the script using Python:
 View the Results: The video will display with overlaid lines showing the entry and exit points. Vehicle counts and speeds will be displayed on the video. Press Enter to exit the program and close the video window
 
 ## Code Details
-Video Capture: cv2.VideoCapture('traffic.mp4') initializes video capture from the file.
-Background Subtractor: cv2.bgsegm.createBackgroundSubtractorMOG() for vehicle detection.
+Video Capture: <b>cv2.VideoCapture('video.mp4') </b> initializes video capture from the file.
+Background Subtractor: <b>cv2.bgsegm.createBackgroundSubtractorMOG()</b> for vehicle detection.
 Center Calculation: center_handle(x, y, w, h) calculates the center of detected vehicles.
-Frame Resizing: cv2.resize(frame1, (display_width, display_height)) scales the video frame to fit the display window.
+Frame Resizing: <b>cv2.resize(frame1, (display_width, display_height))</b> scales the video frame to fit the display window.
 Vehicle Tracking: Monitors vehicles crossing defined lines for entry and exit counts.
 Speed Calculation: Computes vehicle speeds and displays them on the video.
 
