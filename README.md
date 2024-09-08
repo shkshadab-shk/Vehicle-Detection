@@ -44,18 +44,14 @@ Display Size: Set display_width and display_height to match your screen resoluti
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-```css
-Feel free to adjust the content to better reflect your specific implementation details or preferences! 
-
 
 ```bash
 pip install opencv-python-headless numpy
-python vehicle_detection.py.
+python vehicle_detection.py
 
 
 
-
-
+Feel free to modify the sections according to your preferences or specific project details!
 
 
 
