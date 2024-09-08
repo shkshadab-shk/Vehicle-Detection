@@ -19,7 +19,7 @@ This project is a vehicle detection and counting system using OpenCV and Python.
 
 
 ## Usage
-Prepare Your Video File: Place your video file in the project directory and name it traffic.mp4, or update the code to reference your file name.
+Prepare Your Video File: Place your video file in the project directory and name it <b>video.mp4</b>, or update the code to reference your file name.
 Run the Script: Execute the script using Python:
 
 
